@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    height: 100vh;
+    gap: 25px;
+    flex-direction: column;
+}
+
+.game-container {
+    outline: 1px solid blue;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 15px;
+}
+
+.sketch-container {
+    width: 40vw;
+    height: 60vh;
+    outline: 1px solid red;
+}
+
+.options-container {
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px;
+    background-color: gray;
+    width: 10vw;
+    height: 40vh;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.slider-container {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: inherit;
+    background-color: darkgrey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+h1 {
+    margin-top: 80px;
+    margin-bottom: 75px;
+}
+
+.options-container > p {
+    margin-top: 40px;
+}
