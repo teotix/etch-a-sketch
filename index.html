@@ -7,19 +7,28 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>Etch-a-Sketch</h1>
+    <h1 id="header"></h1>
     <div class="game-container">
       <div class="options-container">
         <p>Sketch options</p>
         <div class="buttons-container">
-        <button id="btn1">placeholder</button>
-        <button id="btn2">placeholder</button>
-        <button>placeholder</button>
-    </div>
+          <div class="color-buttons">
+            <button id="btn-black">Black Color</button>
+            <button id="btn-color">Random Color</button>
+            <button id="btn-gradual">Gradually Darken</button>
+          </div>
+          <button id="btn-reset">Reset canvas</button>
+        </div>
         <div class="slider-container">
-            <p id="block-number">Number of blocks</p>
-            <p id="slider-num"></p>
-            <input id="grid-slider" value="30" type="range" min="16" max="64" class="slider">
+          <p id="block-number">Number of blocks</p>
+          <p id="slider-num" >30x30</p>
+          <input
+            id="grid-slider"
+            value="30"
+            type="range"
+            min="16"
+            max="64"
+          />
         </div>
       </div>
       <div class="sketch-container"></div>
